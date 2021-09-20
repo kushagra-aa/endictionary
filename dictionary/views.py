@@ -17,11 +17,10 @@ def word(request):
     meaning = dictionary.meaning(search)
     synonyms = dictionary.synonym(search)
     antonyms = dictionary.antonym(search)
-    print(antonyms)
-    print(dictionary.synonym(search))
     context = {
         'meaning': meaning['Noun'][0],
         'synonyms': synonyms,
-        'antonyms': antonyms
+        'antonyms': antonyms,
+        'word': search
     }
     return render(request, 'word.html', context)

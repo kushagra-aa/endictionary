@@ -1,7 +1,12 @@
 {% include 'index.html' %} {% block content %}
-<h3>Meaning: {{meaning}}</h3>
-
-<h3>Synonyms: {% for synonym in synonyms %} {{synonym}}, {% endfor %}</h3>
-
-<h3>Antonyms: {% for antonym in antonyms %} {{antonym}}, {% endfor %}</h3>
+<div class="content">
+<h2 class="word">{{word}}</h2>
+<h3 class="mean">Meaning: {{meaning}}</h3>
+{% if synonym %}
+<h3 class="syn">Synonyms: {% for synonym in synonyms %} {{synonym}}, {% endfor %}</h3>
+{% endif %}
+{% if antonyms %}
+<h3 class="ant">Antonyms: {% for antonym in antonyms %} {{antonym}}, {% endfor %}</h3>
+{% endif %}
+</div>
 {% endblock %}
