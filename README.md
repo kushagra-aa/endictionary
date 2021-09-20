@@ -16,9 +16,9 @@ Built with 🤍 For You!
 
 ## Screenshots
 
-![App Screenshot](https://user-images.githubusercontent.com/68841296/129092327-be3faad7-6010-40ee-821c-34365e90534b.png)
-![image](https://user-images.githubusercontent.com/68841296/129092655-f1c18467-84ef-4786-8d2e-cf34ead9f9b1.png)
-![image](https://user-images.githubusercontent.com/68841296/129092744-296c32dd-d94c-4548-928c-deb3df71377a.png)
+![image](https://user-images.githubusercontent.com/68841296/134009930-79118b76-80f0-439b-baca-820be58cab74.png)
+![image](https://user-images.githubusercontent.com/68841296/134009970-731cdf59-56ea-488d-9de2-a512bb9dd9f9.png)
+![image](https://user-images.githubusercontent.com/68841296/134009975-043946c2-78d0-46ec-afae-ff53155cecc6.png)
 
 ## Run Locally
 
